@@ -13,7 +13,7 @@ const Advice = () => {
     });
   }, []);
   return (
-    <div className="advice-content">
+    <main className="advice-content">
       <h1>Advice #{id}</h1>
       <p>"{advice}"</p>
       <img src={PatternDivider} alt="" />
@@ -33,7 +33,7 @@ const Advice = () => {
             <div className="dot fifth"></div>
         </div>
       </button>
-    </div>
+    </main>
   );
 };
 
